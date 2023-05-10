@@ -1,0 +1,436 @@
+body
+{
+  background-size: cover;
+}
+.flash
+{
+    background-color:white;
+    height: 10vh;
+    position: relative;
+    overflow: hidden;
+}
+.flashbox
+{
+    display:inline-flex;
+}
+.flashtext
+{
+    color:red;
+    position: absolute;
+    top:20%;
+    left:8%;
+    width:100% fit-content;
+}
+.flas
+{
+    left:0 auto;
+    color:blue;
+    top: 20%;
+    left: 16%;
+    position:absolute;
+}
+.border
+{
+    top: 5%;
+    border: 1px;
+    height:auto;
+    width:100%;
+}
+.bone
+{
+    border:1px;
+    height:6vh;
+    background-color:rgb(40, 103, 221);
+}
+.bonename
+{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size:25px;
+    color:greenyellow;
+    padding-top: 0.4%;
+}
+.bonename a
+{
+    text-decoration: none;
+    color: white;
+}
+.btwo
+{
+    border: 1px;
+    height: 17vh;
+    width:100%;
+    overflow-x: hidden;
+    display:inline-flex
+}
+.left
+{
+    background-color:white ;
+    margin-right: 65%;
+}
+.right
+{
+    background-color: cornflowerblue;
+    /* margin-left: 35%; */
+    width: 70%;
+    /* margin: 0% 70% 0% 30%; */
+}
+.name
+{
+    font-size: 60px;
+    width: 31.3%;
+    color: green;
+    /* position:absolute; */
+    margin:-1.6% 0% 0% 6%;
+    /* display:inline-flex; */
+    overflow-y:hidden;
+    overflow: hidden;
+}
+.right ul
+{
+    display:inline-flex;
+    flex-direction: row;
+    list-style: none;
+}
+.right ul li
+{
+    font-size:20px;
+    padding:10% 25% 0% 0%;
+}
+.right ul li a
+{
+    text-decoration: none;
+    color:yellow;
+}
+.bthree
+{
+    border:1px;
+    height: 1.5vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+.tleft
+{
+    background-color: rgb(235, 74, 30);
+    margin-right:33.5%;
+}
+.tcenter
+{
+    background-color:white;
+    margin:0% 33.5% 0% 35%; 
+}
+.tright
+{
+    background-color:green;
+    margin-left: 33.5%;
+}
+.bfour
+{
+    background-color:rgb(40, 103, 221);
+    height: 8.5vh;
+    width:100%;
+}
+.line ul
+{
+    display:inline-flex;
+    list-style:none;
+    font-size:30px;
+    margin-top: 0%;
+    animation:infinite;
+}
+.line ul li
+{
+    width:100%;
+    padding-right: 50%;
+    padding-top: 2.5%;
+    overflow-x: hidden;
+}
+.line ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+}
+.task
+{
+    position: absolute;
+    float:left;
+    width: 20%;
+    padding: 3px;
+    list-style: none;
+    color: white;
+    font-size:80%;
+    text-align:end;
+}
+.body
+{
+    border: 1px;
+    height:300vh;
+    width:100%;
+    background-color:beige;
+    overflow-x:hidden ;
+}
+.bottom
+{
+    background-color:skyblue;
+    width:100%;
+    height:130vh;
+    overflow-x: hidden;
+}
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0% 10% 0% 20%;
+}
+.boxes
+{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    margin:1.5%;
+    border-radius: 10%;
+    font-size: 19px;
+    text-align: center;
+    line-height:100px;
+    color: white;
+
+}
+.text a
+{
+    text-decoration: none;
+    color:white;
+}
+.induction
+{
+    margin:10% 10% 0% 10%;
+}
+.indi
+{
+    float: left;
+    padding-right: 3%;
+    padding-bottom:3%;
+}
+.pic-ctn {
+    width: 100%;
+    height:auto;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(0px);
+      opacity: 0;
+    }
+    40% {
+        transform: translateX(0px);
+        opacity: 0;
+      }
+    50% {
+        transform: translateX(0px);
+        opacity: 0;
+      }
+    60% {
+        transform: translateX(0px);
+        opacity: 0;
+      }
+    70% {
+        transform: translateX(-200px);
+        opacity: 0;
+      }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+.pic-ctn {
+    position: relative;
+    width: 100%;
+    height: 400px;
+   ;
+}
+.pic-ctn > img {
+    position: absolute;
+    top: 0;
+    width:680px;
+    height:350px;
+    margin-left: 30%;
+    opacity: 0;
+    animation: display 20s infinite;
+}
+img:nth-child(1) {
+    animation-delay: 2s;
+}
+img:nth-child(2) {
+    animation-delay: 4s;
+}
+img:nth-child(3) {
+    animation-delay: 6s;
+}
+img:nth-child(4) {
+    animation-delay: 8s;
+  }
+img:nth-child(5) {
+    animation-delay: 10s;
+  }
+  img:nth-child(6) {
+    animation-delay: 12s;
+  }
+  img:nth-child(7) {
+    animation-delay: 14s;
+  }
+  img:nth-child(8) {
+    animation-delay: 16s;
+  }
+  img:nth-child(9) {
+    animation-delay: 18s;
+  }
+  .act
+  {
+    padding: 0% 10%;
+  }
+  .acts
+  {
+    display:flex;
+    padding-left: 10%;
+  }
+  .sidehed
+  {
+    padding:0% 2%;
+  }
+  .inside
+  {
+    padding: 0% 5%;
+    font-size: 25px;
+  }
+  p.inside
+  {
+    padding:0% 5%;
+  }
+  p.inside li
+  {
+    padding: 0% 7%;
+  }
+  .actimage
+  {
+    display:flex;
+    padding-left: 15%;
+    width: 500px;
+    height: 200px;
+  }
+table,th,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1% 3% 1% 1%;
+    background-color: lightgreen;
+    color:dark black;
+}
+.split
+{
+  width: 100%;
+  height: 100vh;
+  display:inline-flex;
+}
+.sleft
+{
+  width: 50%;
+  /* border: 2px solid blue; */
+  color:green;
+  overflow-y: scroll;
+  background-color: white;
+}
+.sright
+{
+  width: 50%;
+  /* border: 2px solid green; */
+  color:slateblue;
+  overflow-y: scroll;
+}
+.slp
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.slv
+{
+  color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+.center
+{
+  width:73%;
+}
+.centerleft
+{
+  padding: 5% 0% 0% 8%;
+  color: red;
+  width: 12%;
+  font-size: 80px;
+}
+.centeright
+{
+  padding: 0% 0% 0% 3% ;
+  color:red;
+  width: 15%;
+  font-size: 80px;
+}
+.logbody
+{
+  width: 100%;
+  height: 70vh;
+  background-color: antiquewhite;
+}
+.logbottom
+{
+  width: 100%;
+  height: 20vh;
+  background-color: skyblue;
+}
+.image
+{
+  border: 2px solid blue;
+  width: 20%;
+  height: 52vh;
+  margin:4% 0% 0% 40%;
+  position:absolute;
+  background-color: white;
+}
+.image2
+{
+  border: 2px solid blue;
+  width: 20%;
+  height: 70vh;
+  margin:0% 0% 0% 40%;
+  position:absolute;
+  background-color: white;
+}
+
+.login
+{
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  top: -17%;
+}
+/* @media only screen and (max-width:610px)
+{
+  .flas
+{
+    left: 46%;
+}
+} */
